@@ -13,21 +13,23 @@
 
 **Distributed systems · Storage · Security · Infrastructure · Local AI**
 
+Born and raised in Germany with Vietnamese roots, currently doing my PhD in Canada.
+
 </div>
 
 <img
-align="right"
-width="220"
-hspace="0"
-src="https://raw.githubusercontent.com/minh-tg/minh-tg/readme-assets/rainbow-cat-round.gif"
-alt="Rainbow cat"
+  align="right"
+  width="220"
+  hspace="0"
+  src="https://raw.githubusercontent.com/minh-tg/minh-tg/readme-assets/rainbow-cat-round.gif"
+  alt="Rainbow cat"
 />
 
-I like building things, messing around with systems, and whatever rabbit hole I'm digging into at the moment. Currently, that's agent harnesses and security scanning.
+I like building things, messing around with systems, and whatever I'm digging into at the moment. Right now that's mostly **agent harnesses, security tooling, and small local models**.
 
-My PhD work focuses mostly on **distributed storage and key management**, particularly how these systems behave under load and during failures.
+My PhD work is around **distributed storage and key management**, especially what happens when systems get busy, nodes disappear, or failover has to work outside the happy path.
 
-Outside of that, I spend a lot of time with **NixOS, self-hosting, small local models, agent tooling, developer tools**, and side projects that tend to grow a bit out of the original scope.
+Outside of that, I spend a lot of time with **NixOS, self-hosting, developer tools, infrastructure**, and side projects that have a habit of becoming slightly larger than intended.
 
 A fairly common sequence of events:
 
@@ -49,6 +51,8 @@ A fairly common sequence of events:
 
 A large part of my PhD work revolves around distributed KMS designs for storage systems, with a focus on **request handling, scaling, and failure behavior**.
 
+The interesting part usually starts when the happy path stops being happy.
+
 <br>
 
 </td>
@@ -60,7 +64,7 @@ A large part of my PhD work revolves around distributed KMS designs for storage 
 
 A control plane for **heterogeneous infrastructure**.
 
-Machines, services, and environments are rarely as uniform as we'd like them to be. Ground Control is an attempt to manage that. It supports Proxmox and Xen Orchestra through a unified interface and is inherently designed in such a way, that other control planes can be easily integrated.
+Machines, services, and environments are rarely as uniform as we'd like them to be. Ground Control currently supports **Proxmox and Xen Orchestra** through one interface, with the architecture set up so more providers can be added without redesigning the whole thing.
 
 <br>
 
@@ -74,9 +78,9 @@ Machines, services, and environments are rarely as uniform as we'd like them to 
 
 `local AI` `agents` `LLMs` `benchmarking`
 
-I'm interested in how capable small local models can become when more of the work is handled by the surrounding **harness and tooling**.
+I'm interested in how far you can push a small local model when more of the work is handled by the **harness and tooling around it**.
 
-I've been experimenting with tool policies, delegation, context management, and failure modes, with an emphasis on measuring what actually changes rather than just swapping models.
+I've been testing tool policies, delegation, context handling, and failure modes — less "which model feels better?" and more "what actually changed, and can I measure it?"
 
 <br>
 
@@ -87,9 +91,9 @@ I've been experimenting with tool policies, delegation, context management, and 
 
 `NixOS` `Linux` `containers` `homelab`
 
-My NixOS config has gradually turned into a place for experimenting with more than just machine configuration.
+My NixOS config stopped being just a config a while ago.
 
-It covers **reproducibility, Wayland, containers, self-hosting, multi-machine setups**, and various things I've decided would be nicer to manage declaratively.
+It's now where I experiment with **reproducibility, Wayland, containers, self-hosting, multi-machine setups**, and whatever else I've decided would probably be nicer if it were declarative.
 
 <br>
 
@@ -105,13 +109,15 @@ I usually contribute upstream when fixing something makes more sense than mainta
 
 Some recent examples:
 
-* **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** - Linux/NixOS and WSL support, provider integrations, parser work, and token accounting fixes.
+* **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** — Linux/NixOS and WSL support, provider integrations, parser work, and making token accounting less wrong.  
   [Antigravity process + port detection](https://github.com/xiufengsun/TokenTracker/pull/579) · [Command Code limits](https://github.com/xiufengsun/TokenTracker/pull/594) · [Antigravity token accounting](https://github.com/xiufengsun/TokenTracker/pull/599) · [DeepSeek Harness v3](https://github.com/xiufengsun/TokenTracker/pull/614)
 
-* **[Serpantinum](https://github.com/ilyamiro/serpantinum)** - fixes around Wayland desktop behavior and display-manager integration.
+* **[Serpantinum](https://github.com/ilyamiro/serpantinum)** — fixes around Wayland desktop behavior and display-manager integration.  
   [SDDM compositor handling](https://github.com/ilyamiro/serpantinum/pull/282) · [autohide tray behavior](https://github.com/ilyamiro/serpantinum/pull/249)
 
-* **Specht** - security tooling, vulnerability management, and fixes that occasionally require learning far more about a subsystem than expected.
+* **Specht** — security tooling, vulnerability management, and fixes that occasionally require learning far more about a subsystem than expected.
+
+A small bug turning into an afternoon spent understanding a completely different subsystem is a fairly recurring theme.
 
 ---
 
@@ -153,7 +159,7 @@ Some recent examples:
   Most of my day-to-day coding is in <strong>Go</strong> and <strong>Python</strong>. The rest depends on whatever I'm working on.
 </p>
 
-Most of what I build falls somewhere around **backend services, research prototypes, developer tools, automation, benchmarks, dashboards**, and small tools that solve problems I keep running into.
+Most of what I build ends up somewhere around **backend services, research prototypes, developer tools, automation, benchmarks, dashboards**, and small tools for problems I got tired of working around.
 
 <!-- TODO
 
@@ -218,6 +224,22 @@ BLOG-POST-LIST:END
 
 ---
 
+## 🤝 Connect
+
+Always happy to connect, whether it's about distributed systems, open source, research, local AI, or some weird tool you've been tinkering with.
+
 <p align="center">
-  <i>Usually building something, debugging something, or figuring out why it behaves differently than expected.</i>
+  <a href="https://www.linkedin.com/in/minh-tg/">
+    <img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://orcid.org/0009-0006-3866-4621">
+    <img src="https://img.shields.io/badge/ORCID-research-A6CE39?logo=orcid&logoColor=white" alt="ORCID" />
+  </a>
+  <img src="https://img.shields.io/badge/Discord-minh__tg-5865F2?logo=discord&logoColor=white" alt="Discord: minh_tg" />
+</p>
+
+---
+
+<p align="center">
+  <i>Stay curious. Keep tinkering.</i>
 </p>
