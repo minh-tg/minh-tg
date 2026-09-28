@@ -109,15 +109,13 @@ I usually contribute upstream when fixing something makes more sense than mainta
 
 Some recent examples:
 
-* **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** — Linux/NixOS and WSL support, provider integrations, parser work, and making token accounting less wrong.  
+* **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** - Linux/NixOS and WSL support, provider integrations, parser work, and making token accounting less wrong.  
   [Antigravity process + port detection](https://github.com/xiufengsun/TokenTracker/pull/579) · [Command Code limits](https://github.com/xiufengsun/TokenTracker/pull/594) · [Antigravity token accounting](https://github.com/xiufengsun/TokenTracker/pull/599) · [DeepSeek Harness v3](https://github.com/xiufengsun/TokenTracker/pull/614)
 
-* **[Serpantinum](https://github.com/ilyamiro/serpantinum)** — fixes around Wayland desktop behavior and display-manager integration.  
+* **[Serpantinum](https://github.com/ilyamiro/serpantinum)** - fixes around Wayland desktop behavior and display-manager integration.  
   [SDDM compositor handling](https://github.com/ilyamiro/serpantinum/pull/282) · [autohide tray behavior](https://github.com/ilyamiro/serpantinum/pull/249)
 
-* **Specht** — security tooling, vulnerability management, and fixes that occasionally require learning far more about a subsystem than expected.
-
-A small bug turning into an afternoon spent understanding a completely different subsystem is a fairly recurring theme.
+* **[Specht](https://github.com/minh-tg/specht)** - security tooling, vulnerability management, and fixes that occasionally require learning far more about a subsystem than expected.
 
 ---
 
