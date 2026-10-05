@@ -15,6 +15,8 @@
 
 Born and raised in Germany with Vietnamese roots, currently doing my PhD in Canada.
 
+**Available for freelance contracting: €80/hr, remote, part-time**
+
 </div>
 
 <img
@@ -42,6 +44,19 @@ A fairly common sequence of events:
 ## 🔭 What I'm building
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+### 💸 Arc Payables
+
+`agents` `Arc` `USDC` `Solidity` `Python`
+
+An accounts-payable agent on Arc that **recommends payments it cannot authorize** — spending is enforced on-chain by a budget contract the agent can't argue with. Built for the Tameion Agents Hackathon.
+
+<br>
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -109,13 +124,20 @@ I usually contribute upstream when fixing something makes more sense than mainta
 
 Some recent examples:
 
-* **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** - Linux/NixOS and WSL support, provider integrations, parser work, and making token accounting less wrong.  
+* **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** - Linux/NixOS and WSL support, provider integrations, parser work, and making token accounting less wrong.
   [Antigravity process + port detection](https://github.com/xiufengsun/TokenTracker/pull/579) · [Command Code limits](https://github.com/xiufengsun/TokenTracker/pull/594) · [Antigravity token accounting](https://github.com/xiufengsun/TokenTracker/pull/599) · [DeepSeek Harness v3](https://github.com/xiufengsun/TokenTracker/pull/614)
 
-* **[Serpantinum](https://github.com/ilyamiro/serpantinum)** - fixes around Wayland desktop behavior and display-manager integration.  
+* **[Serpantinum](https://github.com/ilyamiro/serpantinum)** - fixes around Wayland desktop behavior and display-manager integration.
   [SDDM compositor handling](https://github.com/ilyamiro/serpantinum/pull/282) · [autohide tray behavior](https://github.com/ilyamiro/serpantinum/pull/249)
 
 * **[Specht](https://github.com/minh-tg/specht)** - security tooling, vulnerability management, and fixes that occasionally require learning far more about a subsystem than expected.
+
+---
+
+## 📚 Publications
+
+- **NSS 2024** — Best Paper Award (Springer)
+- **PST 2025** (IEEE Xplore)
 
 ---
 
@@ -158,17 +180,6 @@ Some recent examples:
 </p>
 
 Most of what I build ends up somewhere around **backend services, research prototypes, developer tools, automation, benchmarks, dashboards**, and small tools for problems I got tired of working around.
-
-<!-- TODO
-
----
-
-## ✍️ Recently wrote
-
-BLOG-POST-LIST:START
-BLOG-POST-LIST:END
-
--->
 
 ---
 
