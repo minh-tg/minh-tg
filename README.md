@@ -15,7 +15,7 @@
 
 Born and raised in Germany with Vietnamese roots, currently doing my PhD in Canada.
 
-**Available for freelance contracting: €80/hr, remote, part-time**
+**Available for freelance contracting: €70/hr, remote, part-time**
 
 </div>
 
