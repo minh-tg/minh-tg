@@ -136,8 +136,8 @@ Some recent examples:
 
 ## 📚 Publications
 
-- **NSS 2024** — Best Paper Award (Springer)
-- **PST 2025** (IEEE Xplore)
+- **[You Can't Touch This: Detecting Typosquatting Packages for Enhanced Malware Prevention in Software Supply Chains](https://doi.org/10.1007/978-981-96-3531-3_8)** — NSS 2024, Best Paper Award (Springer)
+- **[Comparing Client- & Server-Side AEAD Encryption in Software-Defined Storage Systems](https://doi.org/10.1109/pst65910.2025.11268846)** — PST 2025 (IEEE Xplore)
 
 ---
 
