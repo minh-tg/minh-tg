@@ -34,7 +34,7 @@ For my PhD, I'm working on **distributed key management for storage systems**. A
 
 In my free time I've been messing with **coding agents and their harnesses**. Lately I've been looking into skills: do they actually make agents better at particular tasks, or are we sometimes just adding more instructions and hoping for the best?
 
-There's also my **homelab**, which runs on NixOS and regularly gives me something new to fix. I tend to try a tool, run into one annoying limitation, and start wondering whether I should build my own. This may explain the number of unfinished projects.
+There's also my **homelab**, which runs on Proxmox and regularly gives me something new to tinker with. I tend to try a tool, run into one annoying limitation, and start wondering whether I should build my own. This may explain the number of unfinished projects.
 
 <br clear="right" />
 
