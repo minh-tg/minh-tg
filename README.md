@@ -1,8 +1,8 @@
 <!--
-  Hi, source-code inspector 👋
+  Hi, source-code inspector.
 
   Yes, there is HTML in this README.
-  No, I don't regret it.
+  It was easier this way.
 -->
 
 <div align="center">
@@ -11,11 +11,12 @@
 
 ### Software Engineer · Computer Science PhD Student · Systems Tinkerer
 
-**Distributed systems · Storage · Security · Infrastructure · Local AI**
+**Security · Distributed systems · Developer tools · Local AI**
 
-Born and raised in Germany with Vietnamese roots, currently doing my PhD in Canada.
+Born and raised in Germany with Vietnamese roots. Currently doing my PhD in Canada.
 
-**Available for freelance contracting: €70/hr, remote, part-time**
+**Available for part-time remote contracting · $70/hour**
+
 
 </div>
 
@@ -27,21 +28,19 @@ Born and raised in Germany with Vietnamese roots, currently doing my PhD in Cana
   alt="Rainbow cat"
 />
 
-I like building things, messing around with systems, and whatever I'm digging into at the moment. Right now that's mostly **agent harnesses, security tooling, and small local models**.
+I like building things, taking systems apart, and finding out why something behaves differently from what I expected. Sometimes that leads to a useful tool. Sometimes it just leads to another project.
 
-My PhD work is around **distributed storage and key management**, especially what happens when systems get busy, nodes disappear, or failover has to work outside the happy path.
+For my PhD, I'm working on **distributed key management for storage systems**. A lot of that means writing prototypes, running benchmarks, and seeing what happens when the system is under load or parts of it fail.
 
-Outside of that, I spend a lot of time with **NixOS, self-hosting, developer tools, infrastructure**, and side projects that have a habit of becoming slightly larger than intended.
+In my free time I've been messing with **coding agents and their harnesses**. Lately I've been looking into skills: do they actually make agents better at particular tasks, or are we sometimes just adding more instructions and hoping for the best?
 
-A fairly common sequence of events:
-
-> Find a tool → try it → hit one annoying limitation → try a few alternatives → build something instead.
+There's also my **homelab**, which runs on NixOS and regularly gives me something new to fix. I tend to try a tool, run into one annoying limitation, and start wondering whether I should build my own. This may explain the number of unfinished projects.
 
 <br clear="right" />
 
 ---
 
-## 🔭 What I'm building
+## 🔭 What I'm building (and what I've built)
 
 <table>
 <tr>
@@ -51,7 +50,7 @@ A fairly common sequence of events:
 
 `agents` `Arc` `USDC` `Solidity` `Python`
 
-An accounts-payable agent on Arc that **recommends payments it cannot authorize** — spending is enforced on-chain by a budget contract the agent can't argue with. Built for the Tameion Agents Hackathon.
+An accounts-payable agent I built for the Tameion Agents Hackathon. It can recommend payments, but it can't approve its own spending. A budget contract on-chain makes that decision instead. I'd rather not let an agent talk its way around a spending limit.
 
 <br>
 
@@ -64,9 +63,9 @@ An accounts-payable agent on Arc that **recommends payments it cannot authorize*
 
 `distributed systems` `storage` `security` `performance`
 
-A large part of my PhD work revolves around distributed KMS designs for storage systems, with a focus on **request handling, scaling, and failure behavior**.
+Part of my PhD research. I'm comparing different ways to build key management services for distributed storage and testing how they behave.
 
-The interesting part usually starts when the happy path stops being happy.
+Generating a key is usually the easy bit. Things get more interesting when requests pile up, a node disappears, or recovery doesn't go quite as planned.
 
 <br>
 
@@ -77,9 +76,9 @@ The interesting part usually starts when the happy path stops being happy.
 
 `infrastructure` `control plane` `automation` `systems`
 
-A control plane for **heterogeneous infrastructure**.
+A commissioned prototype for managing different hypervisor platforms through one interface. It supports Proxmox and Xen Orchestra, with room for additional providers.
 
-Machines, services, and environments are rarely as uniform as we'd like them to be. Ground Control currently supports **Proxmox and Xen Orchestra** through one interface, with the architecture set up so more providers can be added without redesigning the whole thing.
+The prototype is complete and has been handed off to the requesting organization's R&D team. It's not an open-source project.
 
 <br>
 
@@ -93,9 +92,9 @@ Machines, services, and environments are rarely as uniform as we'd like them to 
 
 `local AI` `agents` `LLMs` `benchmarking`
 
-I'm interested in how far you can push a small local model when more of the work is handled by the **harness and tooling around it**.
+I keep wondering how much of a coding agent's performance comes from the model itself and how much comes from everything around it.
 
-I've been testing tool policies, delegation, context handling, and failure modes — less "which model feels better?" and more "what actually changed, and can I measure it?"
+I've been experimenting with smaller local models, tool use, context handling, and delegation. More recently, I've been trying to figure out which agent skills actually help and which ones just add noise.
 
 <br>
 
@@ -106,9 +105,9 @@ I've been testing tool policies, delegation, context handling, and failure modes
 
 `NixOS` `Linux` `containers` `homelab`
 
-My NixOS config stopped being just a config a while ago.
+My NixOS configuration stopped being *just* a configuration a while ago. It's now where I experiment with multi-machine setups and self-hosted services.
 
-It's now where I experiment with **reproducibility, Wayland, containers, self-hosting, multi-machine setups**, and whatever else I've decided would probably be nicer if it were declarative.
+I like being able to rebuild a machine without having to remember every little thing I changed six months ago. Whether I always manage that is another question.
 
 <br>
 
@@ -120,17 +119,17 @@ It's now where I experiment with **reproducibility, Wayland, containers, self-ho
 
 ## 🌱 Open source
 
-I usually contribute upstream when fixing something makes more sense than maintaining a workaround.
+I maintain **Specht**, and I also contribute fixes upstream when I run into problems. Sometimes the fix is tiny. Figuring out why it's needed usually isn't.
 
-Some recent examples:
+A few examples:
 
-* **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** - Linux/NixOS and WSL support, provider integrations, parser work, and making token accounting less wrong.
+* **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** — Worked on Linux/NixOS and WSL support, provider integrations, and token accounting.
   [Antigravity process + port detection](https://github.com/xiufengsun/TokenTracker/pull/579) · [Command Code limits](https://github.com/xiufengsun/TokenTracker/pull/594) · [Antigravity token accounting](https://github.com/xiufengsun/TokenTracker/pull/599) · [DeepSeek Harness v3](https://github.com/xiufengsun/TokenTracker/pull/614)
 
-* **[Serpantinum](https://github.com/ilyamiro/serpantinum)** - fixes around Wayland desktop behavior and display-manager integration.
-  [SDDM compositor handling](https://github.com/ilyamiro/serpantinum/pull/282) · [autohide tray behavior](https://github.com/ilyamiro/serpantinum/pull/249)
+* **[Serpantinum](https://github.com/ilyamiro/serpantinum)** — Fixed some Wayland desktop behavior and display-manager issues.
+  [SDDM compositor handling](https://github.com/ilyamiro/serpantinum/pull/282) · [Autohide tray behavior](https://github.com/ilyamiro/serpantinum/pull/249)
 
-* **[Specht](https://github.com/minh-tg/specht)** - security tooling, vulnerability management, and fixes that occasionally require learning far more about a subsystem than expected.
+* **[Specht](https://github.com/minh-tg/specht)** — Vulnerability management tooling I'm working on. I want it to be useful to developers first, not just another place to dump scanner output. I'm exploring CLI and MCP support so coding agents can help make sense of findings and work through them. Still very much a work in progress.
 
 ---
 
@@ -176,10 +175,8 @@ Some recent examples:
 </div>
 
 <p align="center">
-  Most of my day-to-day coding is in <strong>Go</strong> and <strong>Python</strong>. The rest depends on whatever I'm working on.
+  Most days I write <strong>Go</strong> or <strong>Python</strong>. The rest depends on what I'm trying to make work.
 </p>
-
-Most of what I build ends up somewhere around **backend services, research prototypes, developer tools, automation, benchmarks, dashboards**, and small tools for problems I got tired of working around.
 
 ---
 
@@ -235,7 +232,7 @@ Most of what I build ends up somewhere around **backend services, research proto
 
 ## 🤝 Connect
 
-Always happy to connect, whether it's about distributed systems, open source, research, local AI, or some weird tool you've been tinkering with.
+If you're working on something interesting, have a weird bug, or just want to compare notes, feel free to reach out.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/minh-tg/">
@@ -250,5 +247,5 @@ Always happy to connect, whether it's about distributed systems, open source, re
 ---
 
 <p align="center">
-  <i>Stay curious. Keep tinkering.</i>
+  <i>Probably working on another side project.</i>
 </p>
